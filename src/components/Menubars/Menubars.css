@@ -1,0 +1,161 @@
+.menus{
+    width: 100%;
+    position: relative;
+    background-color: #202020;
+    color: #fff;
+    font-family: Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    user-select: none;
+}
+.menuuno{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    height: 52px;
+    justify-content: space-between;
+    border-bottom: 1px solid #393939;
+    padding: 0 5%;
+}
+
+.profile{
+    position: relative;
+    display: block;
+    font-family: Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
+    border-right: 1px solid #393939;
+    border-left: 1px solid #393939;
+    height: 51px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 25px;
+    cursor: pointer;
+    width: 15%;
+}
+
+.divlogoin{
+    margin: 5%;
+}
+
+.logoin{
+    cursor: pointer;
+    margin: 0 8px 0 0;
+    overflow: hidden;
+}
+
+.username{    
+    
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    position: relative;
+    font-family: Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;    
+    height: 51px;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0 25px;
+    cursor: pointer;
+}
+.logo{    
+    height: 52px;
+}
+.logomarvel{
+    display: flex;
+    justify-content: center;
+    margin: -0.8% auto auto auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    height: 80%;
+    width: 130px;    
+}
+.logosuscribe{
+    left: 0;
+    right: 0;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.divsuscribe{ 
+    border-left: 1px solid #393939;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    width: 20%;
+}
+
+.suscribe p{
+    display: block;
+    margin: 0;   
+    letter-spacing: 1px;
+    line-height: .9;
+}
+
+.suscribe span{
+    margin-top: 3px;
+    display: block;
+    text-align: center;
+    font-size: 10px; 
+    line-height: .9;
+    letter-spacing: 1px;
+    text-transform: uppercase;   
+}
+
+.logomu{
+    align-items: center;
+    border-right: none;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+}
+
+.name{
+    font: 400 12px/1 RobotoCondensed Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.search{
+    border-right: 1px solid #393939;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-flex;
+    box-sizing: border-box;
+    border-left: 1px solid #393939;
+    height: 51px;
+}
+
+.menudos{
+    height: 40px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.listmenu{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    padding-inline-start: 40px;
+}
+
+.itemenu{
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 0 18px;
+    margin: 0 auto;
+    cursor: pointer;
+    list-style: none;
+}

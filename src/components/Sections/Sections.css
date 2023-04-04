@@ -1,0 +1,160 @@
+.contentsections span p{
+    
+}
+
+.banner{
+    background-image: url("../../010ant_ons_crd_05.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 640px;
+    clip-path: polygon(0 0,0 92%,100% 88%,100% 0);
+}
+
+.descripcion{
+    font-family:Roboto Condensed;
+    position: absolute;
+    width: 55%; 
+    padding: 10% 6%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.titleone{
+    position: relative;
+    margin: 0 0 30px;
+    size: 0.1em;
+    display: inline-block;
+    letter-spacing: 1px;
+    font: 16px;
+}
+.titletwo{
+    
+    position: relative;
+    margin: 0 0 30px;
+    font-size: 43px;
+    font-weight: 800;
+}
+
+.description{
+    letter-spacing: 1px;
+    max-width: 600px;
+    font-size: 18px;
+}
+
+a {
+    font-size: 11px;
+    line-height: 12px;
+    padding: 0px 20%;
+    text-decoration: none;
+    background-color: #202020;
+    color: #767676;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.buttons .cta-btn {
+    margin: 0 15px 15px 0;
+    z-index: 90;
+}
+
+.cta-btn {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    margin: 15px auto;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    letter-spacing: 0;
+    width: auto;
+    z-index: 10;
+}
+
+.cta-btn:before {
+    border-width: 0 0 16px 16px;
+    margin-left: 16px;
+    top: 0;
+}
+
+.cta-btn:after {
+    border-width: 16px 16px 0 0;
+    bottom: 0;
+    margin-right: 16px;
+}
+
+.cta-btn:after, .cta-btn:before {
+    border-style: solid;
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    height: 16px;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red:after, .cta-btn.cta-btn--solid.cta-btn--red:before {
+    background-color: #e62429;
+    border-color: #e62429;
+    transition: none;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red:before {
+    margin-left: 16px;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red:after {
+    margin-right: 16px;
+}
+
+.cta-btn:after {
+    border-width: 16px 16px 0 0;
+    bottom: 0;
+    margin-right: 16px;
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red .innerFill {
+    color: #fff;
+    background-color: #e62429;
+    transition: none;
+    text-align: center;
+}
+
+.cta-btn .innerFill {
+    display: block;
+    padding: 0 35px;
+    text-align: center;
+    font: 800 14px/1 Roboto Bold,Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-transform: uppercase
+}
+
+.cta-btn .innerFill:before {
+    left: 0;
+    top: 0
+}
+
+.cta-btn .innerFill:after {
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg)
+}
+
+.cta-btn .innerFill:after,.cta-btn .innerFill:before {
+    border-color:transparent;
+    border-style: solid;
+    border-width: 0 0 16px 16px;
+    box-sizing: border-box;
+    content: "";
+    display: block;
+    position: absolute
+}
+
+.cta-btn.cta-btn--solid.cta-btn--red .innerFill:after, .cta-btn.cta-btn--solid.cta-btn--red .innerFill:before {
+    border-color: #e62429 transparent;
+    transition: none;
+}
